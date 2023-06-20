@@ -17,12 +17,13 @@ namespace TernaryOPerator
             t= Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("rate of interest"); 
         r=  Convert.ToDouble(Console.ReadLine());
-            i=(p*r*t)/100
+            i = (p * r * t) / 100;
             Console.WriteLine("interst=" + i);
             ci = p + i;
             Console.WriteLine("compound interst=" + ci);
-                
-           }
+            Console.WriteLine( "demo");
+
+        }
 
             
         }
