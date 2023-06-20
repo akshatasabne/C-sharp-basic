@@ -16,6 +16,7 @@ namespace TernaryOPerator
             Console.WriteLine("time");
             t= Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("rate of interest");
+            Console.WriteLine("ttttt");
             r =  Convert.ToDouble(Console.ReadLine());
             i = (p * r * t) / 100;
             Console.WriteLine("interst=" + i);
